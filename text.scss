@@ -1,0 +1,45 @@
+.text-container {
+  display: inline-flex;
+  width: fit-content;
+  background-color: #ffffff;
+  padding: 1%;
+  .total {
+    width: fit-content;
+    color: #248afd;
+    font-size: 60px;
+    text-align: right;
+    p {
+      font-size: 16px;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  .division {
+    width: fit-content;
+    float: left;
+    font-size: 20px;
+    text-align: right;
+    padding: 6% 0 0 0.1%;
+    .profit {
+      color: #24ac2b;
+    }
+    .loss {
+      color: #c82b2b;
+    }
+  }
+  .division-icon {
+    width: fit-content;
+    float: left;
+    font-size: 20px;
+    padding: 6% 0 0 0;
+    .profit-icon {
+      color: #24ac2b;
+    }
+    .loss-icon {
+      color: #c82b2b;
+    }
+    .icon {
+      width: 50%;
+    }
+  }
+}
